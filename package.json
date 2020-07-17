@@ -1,0 +1,18 @@
+{
+  "name": "my-lib",
+  "version": "1.0.0",
+  "description": "TypeScript NPM library Sample",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "build": "npm run compile"
+  },
+  "author": "Ezequiel Gandolfi",
+  "files": [
+    "out/**/*"
+  ],
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
